@@ -1,7 +1,7 @@
 [submodule "aether-bootstrap"]
   path = aether-bootstrap
   url = https://github.com/eHealthAfrica/aether-bootstrap.git
-  branch = master
+  branch = release-0.11
   ignore = all
 
 # Execute `git submodule update --remote` to update it
