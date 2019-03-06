@@ -27,6 +27,13 @@ services:
     networks:
       - gather
 
+  minio:
+    extends:
+      file: ./aether-bootstrap/docker-compose-base.yml
+      service: minio-base
+    networks:
+      - gather
+
   # ---------------------------------
   # Aether kernel container
   # ---------------------------------
