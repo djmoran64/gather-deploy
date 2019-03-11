@@ -1,6 +1,6 @@
 [submodule "aether-bootstrap"]
   path = aether-bootstrap
-  url = https://github.com/eHealthAfrica/aether-bootstrap.git
+  url = https://github.com/djmoran64/aether-bootstrap.git
   branch = master
   ignore = all
 
