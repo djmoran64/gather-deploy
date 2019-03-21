@@ -1,7 +1,7 @@
 [submodule "aether-bootstrap"]
   path = aether-bootstrap
   url = https://github.com/djmoran64/aether-bootstrap.git
-  branch = master
+  branch = feat/keep-data
   ignore = all
 
 # Execute `git submodule update --remote` to update it
