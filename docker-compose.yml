@@ -42,6 +42,8 @@ services:
       gather:
         aliases:
           - kernel.aether.local
+    environment:
+      CSRF_COOKIE_DOMAIN: .clinics.eha.ng
 
   # ---------------------------------
   # ODK Adapter container
@@ -58,6 +60,8 @@ services:
       gather:
         aliases:
           - odk.aether.local
+    environment:
+      CSRF_COOKIE_DOMAIN: .clinics.eha.ng
 
   # ---------------------------------
   # Aether UI container
@@ -74,6 +78,8 @@ services:
       gather:
         aliases:
           - ui.aether.local
+    environment:
+      CSRF_COOKIE_DOMAIN: .clinics.eha.ng
 
   # ---------------------------------
   # Gather container
@@ -90,6 +96,8 @@ services:
       gather:
         aliases:
           - gather.local
+    environment:
+      CSRF_COOKIE_DOMAIN: .clinics.eha.ng
 
   # ---------------------------------
   # NGINX container

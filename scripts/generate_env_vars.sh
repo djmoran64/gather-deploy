@@ -59,8 +59,8 @@ gen_env_file () {
 # ==================================================================
 GATHER_VERSION=3.1.0
 
-GATHER_ADMIN_USERNAME=admin
-GATHER_ADMIN_PASSWORD=adminadmin
+GATHER_ADMIN_USERNAME=clinicadmin
+GATHER_ADMIN_PASSWORD=zd7aPUa4Iqkhz3SE
 GATHER_DJANGO_SECRET_KEY=$(gen_random_string)
 GATHER_DB_PASSWORD=$(gen_random_string)
 # ------------------------------------------------------------------
@@ -76,8 +76,8 @@ AETHER_VERSION=1.3.0
 # ------------------------------------------------------------------
 # Aether Kernel
 # ==================================================================
-KERNEL_ADMIN_USERNAME=admin
-KERNEL_ADMIN_PASSWORD=adminadmin
+KERNEL_ADMIN_USERNAME=clinicadmin
+KERNEL_ADMIN_PASSWORD=zd7aPUa4Iqkhz3SE
 KERNEL_ADMIN_TOKEN=$(gen_random_string)
 KERNEL_DJANGO_SECRET_KEY=$(gen_random_string)
 KERNEL_DB_PASSWORD=$(gen_random_string)
@@ -89,15 +89,15 @@ KERNEL_READONLY_DB_PASSWORD=$(gen_random_string)
 # ------------------------------------------------------------------
 # Aether Producer
 # ==================================================================
-PRODUCER_ADMIN_USER=admin
+PRODUCER_ADMIN_USER=clinicadmin
 PRODUCER_ADMIN_PW=$(gen_random_string)
 # ------------------------------------------------------------------
 
 # ------------------------------------------------------------------
 # Aether ODK Module
 # ==================================================================
-ODK_ADMIN_USERNAME=admin
-ODK_ADMIN_PASSWORD=adminadmin
+ODK_ADMIN_USERNAME=clinicadmin
+ODK_ADMIN_PASSWORD=zd7aPUa4Iqkhz3SE
 ODK_ADMIN_TOKEN=$(gen_random_string)
 ODK_DJANGO_SECRET_KEY=$(gen_random_string)
 ODK_DB_PASSWORD=$(gen_random_string)
@@ -106,8 +106,8 @@ ODK_DB_PASSWORD=$(gen_random_string)
 # ------------------------------------------------------------------
 # Aether UI
 # ==================================================================
-UI_ADMIN_USERNAME=admin
-UI_ADMIN_PASSWORD=adminadmin
+UI_ADMIN_USERNAME=clinicadmin
+UI_ADMIN_PASSWORD=zd7aPUa4Iqkhz3SE
 UI_DJANGO_SECRET_KEY=$(gen_random_string)
 UI_DB_PASSWORD=$(gen_random_string)
 # ------------------------------------------------------------------
